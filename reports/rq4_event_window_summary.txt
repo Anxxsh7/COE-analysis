@@ -1,0 +1,7 @@
+RQ4 Event-Window (Article-Style) Test
+Method: Cat A/B monthly COE around each election, window -12 to +3 months.
+Primary metric: drop from pre-election peak to election month.
+Primary test: pre-election slope (event_month coefficient) with election fixed effects.
+
+Category A: slope=0.011542, p=0.0158378; mean drop-from-peak=-6.349% (p=0.183332, n=4)
+Category B: slope=0.009517, p=0.0713332; mean drop-from-peak=-13.203% (p=0.0585127, n=4)

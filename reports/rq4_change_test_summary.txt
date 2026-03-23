@@ -1,0 +1,7 @@
+RQ4 change-based election effect analysis
+Model: dlog_premium ~ election_year + dlog_quota + dlog_bids + C(vehicle_class)
+n_obs=45
+election_coef=0.165694
+election_p_value=0.00502748
+implied_pct_effect=18.0211%
+welch_p_value=0.30855361457903596

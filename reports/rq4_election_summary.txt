@@ -1,0 +1,8 @@
+RQ4 Election Effect Summary (Level-Based + Primary Change-Based)
+Level-based (historical): mean premium election=$59,332 vs non-election=$60,057; Welch p=0.673617.
+Level-based controlled model (log premium): election coef=-0.001596, p=0.947391 (not significant evidence of a drop).
+Primary method: time-series change-based test on dlog premium to reduce static level-mean bias.
+Change-based controlled result: election_coef=0.165694, p=0.005027, implied effect=18.0211%.
+Change-based secondary Welch test on changes: p=0.308554.
+Primary-vs-secondary rule: controlled change-based regression is primary; Welch on changes is secondary.
+Final conclusion: The change-based primary test does not support an election-year drop in COE premiums (election_coef=0.165694, p-value=0.005027 < 0.05).

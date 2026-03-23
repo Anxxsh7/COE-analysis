@@ -1,0 +1,26 @@
+Stage 2 Extended Model Summary
+Observations (level model): 1051
+R-squared (level model): 0.7429
+Adj. R-squared (level model): 0.7414
+
+Key coefficients (HC3 robust SE):
+- log_quota: coef=-0.3068, p=7.277e-14
+- log_bids: coef=0.0029, p=9.455e-01
+- log_cpi_pt: coef=1.5801, p=0.000e+00
+- log_rsi_mv: coef=-0.1055, p=2.272e-03
+
+Observations (differenced model): 1048
+R-squared (differenced model): 0.1333
+
+Key differenced coefficients (HC3 robust SE):
+- d_log_quota: coef=-0.1860, p=2.514e-06
+- d_log_bids: coef=0.0990, p=3.145e-03
+- d_log_cpi_pt: coef=1.4788, p=5.902e-08
+- d_log_rsi_mv: coef=0.0623, p=1.834e-04
+
+Outputs saved:
+- reports/stage2_monthly_panel.csv
+- reports/stage2_adf_results.csv
+- reports/stage2_vif_results.csv
+- reports/stage2_model_coefficients.csv
+- reports/stage2_diff_model_coefficients.csv

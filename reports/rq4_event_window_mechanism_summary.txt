@@ -1,0 +1,9 @@
+RQ4 Article-Style Mechanism Check
+Hypothesis: As elections approach, quota rises, and higher quota lowers prices.
+n_obs_pre=79, n_obs_flow=72
+
+Quota trend near election (log_quota ~ event_month + event FE): coef=0.021692, p=0.016385
+Price response to quota change (dlog_price ~ dlog_quota + dlog_bids + event FE): coef=-0.154919, p=0.190014
+Proximity effect net of controls (dlog_price ~ event_month + dlog_quota + dlog_bids + event FE): event_month coef=-0.005956, p=0.0183782
+
+Conclusion: Evidence does NOT show a consistent election-approach quota increase causing lower prices.

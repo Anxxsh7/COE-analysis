@@ -1,0 +1,2 @@
+n_obs_pre,n_obs_flow,quota_event_month_coef,quota_event_month_p,price_on_dquota_coef,price_on_dquota_p,prox_event_month_coef,prox_event_month_p,prox_dquota_coef,prox_dquota_p
+79,72,0.021692097351783707,0.0163849517693856,-0.15491901192660457,0.19001398932326952,-0.005956140988724365,0.018378225522567924,-0.11592825868133196,0.3269174232531874
